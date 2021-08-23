@@ -9,19 +9,20 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
+<body class="bg-light">
   <header class="bg-secondary p-2">
     <h1 class="text-light">Objective - Junior Software Developer<br></h1>
   </header>
-  <main class="container-fluid bg-light p-5">
+  <main class="container-lg p-5">
       <h2>Aliaksandr Halaveika</h2>
       <img src="./assets/Foto.jpg" class="rounded img" width="300" height="300" alt="My Foto">
       <hr>
       <h2>Contact information<br></h2>
           <p>
+              Location: Brest;<br>
               Mobile phone: +375292773646;<br>
               E-mail: halaveika1988@gmail.com;<br>
-             <a href="https://github.com/halaveika" target="_blank">https://github.com/halaveika</a><br>
+             <a href="https://github.com/halaveika" class="link-dark" target="_blank">https://github.com/halaveika</a><br>
           </p>
       <hr>  
       <h2>About me<br></h2>
@@ -31,29 +32,42 @@
         <hr>
         <h2>My skills<br></h2>
           <ul>
-            <li>JS, HTML, CSS, Webpack, Typescript, Express, React, Angular: Basic lvl;</li>
+            <li>JS, HTML, CSS, Webpack, Typescript, Express, React, Redux, Angular: Basic lvl;</li>
             <li>Experience with Heroku, Cloudinary, MongoDB.</li>
           </ul>
           <hr>
         <h2>Work experience <br></h2>
           RSSCHOOL - JavaScript/Front-end 2021Q1;
-          <p class="p-1">
+          <div class="p-1 btn-container">
             <button class="btn btn-secondary p-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
               English for kids
             </button>
-          </p>
+            <div class="feature-container">
+              <img src="./assets/react.svg" class="feature-img"  alt="react">
+              <img src="./assets/redux.svg" class="feature-img"  alt="redux">
+              <img src="./assets/typescript.svg" class="feature-img" alt="typescript">
+              <img src="./assets/icons8-mongodb.svg" class="feature-img" alt="mongo">
+              <img src="./assets/nodejs.svg" class="feature-img" alt="nodejs">
+              <img src="./assets/heroku.png" class="feature-img" alt="heroku">
+              <img src="./assets/cloudinary.png" class="feature-img" alt="cloudinary">
+            </div>
+          </div>
           <div class="collapse" id="collapseExample">
             <div class="card card-body">
-              MERN, Typescript, Heroku, Cloudinary
+              MERN, Redux, Typescript, Heroku, Cloudinary
               <a href="https://github.com/halaveika/english-for-kids-client-server" target="_blank">Repository</a>
               <a href="https://halaveika-jsfe2021q1-english-for-kids-client.netlify.app/" target="_blank">Deploy</a>
             </div>
           </div>
-          <p class="p-1">
+          <div class="p-1 btn-container">
             <button class="btn btn-secondary p-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample2">
               Match-match-game
             </button>
-          </p>
+            <div class="feature-container">
+              <img src="./assets/typescript.svg" class="feature-img" alt="typescript">
+              <img src="./assets/webpack.svg" class="feature-img" alt="webpack">
+            </div>
+          </div>
           <div class="collapse" id="collapseExample2">
             <div class="card card-body">
               SPA, Typescript, Webpack
@@ -61,23 +75,32 @@
               <a href="https://halaveika-match-match-game.netlify.app/" target="_blank">Deploy</a>
             </div>
           </div>
-          <p class="p-1">
+          <div class="p-1 btn-container">
             <button class="btn btn-secondary p-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample3">
               Async-race
             </button>
-          </p>
+            <div class="feature-container">
+              <img src="./assets/typescript.svg" class="feature-img" alt="typescript">
+              <img src="./assets/webpack.svg" class="feature-img" alt="webpack">
+            </div>
+          </div>
           <div class="collapse" id="collapseExample3">
             <div class="card card-body">
-              SPA, RESTful, Typescript, Webpack
+              SPA, RESTful api, Typescript, Webpack
               <a href="https://github.com/halaveika/async-race" target="_blank">Repository</a>
               <a href="https://async-race-halaveika.netlify.app/" target="_blank">Deploy</a>
             </div>
           </div>
-          <p class="p-1">
+          <div class="p-1 btn-container">
             <button class="btn btn-secondary p-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample4" aria-expanded="false" aria-controls="collapseExample4">
               Online-zoo
             </button>
-          </p>
+            <div class="feature-container">
+              <img src="./assets/html.svg" class="feature-img"  alt="html">
+              <img src="./assets/css-3.svg" class="feature-img" alt="css">
+              <img src="./assets/javascript.svg" class="feature-img" alt="javascript">
+            </div>
+          </div>
           <div class="collapse" id="collapseExample4">
             <div class="card card-body">
               HTML, CSS, JS
@@ -85,11 +108,16 @@
               <a href="https://rolling-scopes-school.github.io/halaveika-JSFE2021Q1/online-zoo/petstory.html" target="_blank">Deploy</a>
             </div>
           </div>
-          <p class="p-1">
+          <div class="p-1 btn-container">
             <button class="btn btn-secondary p-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample5" aria-expanded="false" aria-controls="collapseExample5">
               Photo-filter
             </button>
-          </p>
+            <div class="feature-container">
+              <img src="./assets/html.svg" class="feature-img"  alt="html">
+              <img src="./assets/css-3.svg" class="feature-img" alt="css">
+              <img src="./assets/javascript.svg" class="feature-img" alt="javascript">
+            </div>
+          </div>
           <div class="collapse" id="collapseExample5">
             <div class="card card-body">
               HTML, CSS, JS
@@ -97,11 +125,16 @@
               <a href="https://rolling-scopes-school.github.io/halaveika-JSFE2021Q1/photo-filter/" target="_blank">Deploy</a>
             </div>
           </div>
-          <p class="p-1">
+          <div class="p-1 btn-container">
             <button class="btn btn-secondary p-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample6" aria-expanded="false" aria-controls="collapseExample6">
               Virtual-piano
             </button>
-          </p>
+            <div class="feature-container">
+              <img src="./assets/html.svg" class="feature-img"  alt="html">
+              <img src="./assets/css-3.svg" class="feature-img" alt="css">
+              <img src="./assets/javascript.svg" class="feature-img" alt="javascript">
+            </div>
+          </div>
           <div class="collapse" id="collapseExample6">
             <div class="card card-body">
               HTML, CSS, JS
@@ -112,15 +145,15 @@
         <hr>
         <h2>Education<br></h2>
            <ul>
-             <li>
+             <li class="list-group-item list-group-item-light">
               <h3>Brest State Technical University<br></h3>
               <em>Civil Engineering finished in 2012;</em>
              </li>
-             <li>
+             <li class="list-group-item list-group-item-light">
               <h3>Brest State Technical University<br></h3>
               <em>Economics and Management of Enterprises finished in 2012;</em>
             </li>
-            <li>
+            <li class="list-group-item list-group-item-light">
               <h3>Brest State Technical University<br></h3>
               <em>Automatic Data Processing Systemsm, pending </em>
             </li>
