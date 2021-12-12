@@ -50,3 +50,16 @@ em{
   font-style: italic;
 }
 
+.wrapper {
+  width: 90vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+}

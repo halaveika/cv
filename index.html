@@ -11,33 +11,82 @@
 </head>
 <body class="bg-light">
   <header class="bg-secondary p-2">
-    <h1 class="text-light">Objective - Junior Software Developer<br></h1>
+    <h1 class="text-light">Junior Software Developer<br></h1>
   </header>
-  <main class="container-lg p-5">
+  <main class="container-lg">
+    <div class="wrapper">
       <h2>Aliaksandr Halaveika</h2>
       <img src="./assets/Foto.jpg" class="rounded img" width="300" height="300" alt="My Foto">
       <hr>
       <h2>Contact information<br></h2>
-          <p>
-              Location: Brest;<br>
-              Mobile phone: +375292773646;<br>
-              E-mail: halaveika1988@gmail.com;<br>
-             <a href="https://github.com/halaveika" class="link-dark" target="_blank">https://github.com/halaveika</a><br>
-          </p>
+      <div class="container-lg">
+        <div>
+          <img src="./assets/0ed13213001904f03fb05c58139778db.svg" class="feature-img" width="16" height="16"  alt="location">
+          <span>Brest</span>
+        </div>
+        <div>
+          <img src="./assets/viber.svg" class="feature-img" width="20" height="20"  alt="viber">
+          <span>+375292773646</span>
+        </div>
+        <div>
+          <img src="./assets/mail.svg" class="feature-img" width="20" height="20"  alt="mail">
+          <span>halaveika1988@gmail.com</span>
+        </div>
+        <div>
+          <img src="./assets/github-icon.svg" class="feature-img" width="18" height="18"  alt="github">
+          <a href="https://github.com/halaveika" class="link-dark" target="_blank">https://github.com/halaveika</a>
+        </div>
+      </div>
       <hr>  
       <h2>About me<br></h2>
           <p>
-            I have a higher technical and economic education. I worked as a specialist and head of various enterprises. I have a great desire to master a new profession for me - a software developer, in particular, I am interested in web technologies. I started retraining as a software developer on the basis of higher education. Every day I spend some time learning English. I am friendly, polite and correct in communication. I like to completely dive into the problem at work, but deadlines are my priority. I am also stress-resistant.
+            I have a higher technical and economic education. I worked as a specialist and head of various enterprises. I have a great desire to master a new profession for me - a software developer, in particular, I am interested in web technologies. I started retraining as a software developer on the basis of higher education. Every day I spend some time learning English. I am friendly, polite and correct in communication. I like to completely dive into the problem at work, but deadlines are my priority.
           </p>
         <hr>
         <h2>My skills<br></h2>
           <ul>
-            <li>JS, HTML, CSS, Webpack, Typescript, Express, React, Redux, Angular: Basic lvl;</li>
-            <li>Experience with Heroku, Cloudinary, MongoDB.</li>
+            <li>JavaScript, HTML, CSS, NodeJS, Typescript</li>
+            <li> Git, Webpack, Babel, Eslint</li>
+            <li><b>Client-Side Frameworks & libs: </b> React, Redux, Angular</li>
+            <li><b>UI Frameworks: </b> Bootstrap, Ant Design, Angular Material</li>
+            <li><b>Back-end Frameworks: </b> Express, Fastify</li>
+            <li><b>NodeJS ORM: </b> Sequelize, TypeORM, Mongoose</li>
+            <li><b>Testing: </b> Jest, Supertest</li>
           </ul>
           <hr>
-        <h2>Work experience <br></h2>
-          RSSCHOOL - JavaScript/Front-end 2021Q1;
+        <h2>Courses<br></h2>
+        <ul>
+          <li>
+            <a href="https://app.rs.school/certificate/o0nbqlxj" class="link-dark" target="_blank">RSschool - JavaScript/Front-end 2021Q1</a>
+          </li>
+          <li>
+            <a href="https://app.rs.school/certificate/hfcxu25v" class="link-dark" target="_blank">RSschool - Angular 2021Q3</a>
+          </li>
+          <li>
+            RSschool - NodeJS 2021 Q4 (in progress)
+          </li>
+        </ul>
+          <hr>
+        <h2>Projects<br></h2>
+          <div class="p-1 btn-container">
+            <button class="btn btn-secondary p-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample8" aria-expanded="false" aria-controls="collapseExample8">
+              Films
+            </button>
+            <div class="feature-container">
+              <img src="./assets/react.svg" class="feature-img" width="34" height="34"  alt="react">
+              <img src="./assets/redux.svg" class="feature-img" width="34" height="34"  alt="redux">
+              <img src="./assets/webpack.svg" class="feature-img" width="34" height="34" alt="webpack">
+              <img src="./assets/ant-design.svg" class="feature-img" width="34" height="34" alt="ant-design">
+              <img src="./assets/jest.svg" class="feature-img" width="34" height="34" alt="jest">
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample8">
+            <div class="card card-body">
+              React, Redux, Ant Design, Webpack, Jest
+              <a href="https://github.com/halaveika/reactjs-films-homework/tree/part_N4" target="_blank">Repository</a>
+              <a href="https://reactjs-films-homework-dzib5jtby-halaveika.vercel.app/" target="_blank">Deploy</a>
+            </div>
+          </div>
           <div class="p-1 btn-container">
             <button class="btn btn-secondary p-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
               English for kids
@@ -57,6 +106,42 @@
               MERN, Redux, Typescript, Heroku, Cloudinary
               <a href="https://github.com/halaveika/English-for-kids" target="_blank">Repository</a>
               <a href="https://halaveika-jsfe2021q1-english-for-kids-client.netlify.app/" target="_blank">Deploy</a>
+              login: admin, password: admin
+            </div>
+          </div>
+          <div class="p-1 btn-container">
+            <button class="btn btn-secondary p-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample9" aria-expanded="false" aria-controls="collapseExample9">
+              RS-shop
+            </button>
+            <div class="feature-container">
+              <img src="./assets/angular.svg" class="feature-img" width="34" height="34"  alt="html">
+              <img src="./assets/ngrx.svg" class="feature-img" width="34" height="34" alt="css">
+              <img src="./assets/bootstrap.svg" class="feature-img" width="34" height="34" alt="bootstrap">
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample9">
+            <div class="card card-body">
+              SPA, Angular, Ngrx, Bootstrap
+              <a href="https://github.com/halaveika/rs-shop" target="_blank">Repository</a>
+              <a href="https://rs-shop-angular2021q3-halaveika.netlify.app/" target="_blank">Deploy</a>
+              login: Warner, password: ea
+            </div>
+          </div>
+          <div class="p-1 btn-container">
+            <button class="btn btn-secondary p-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7">
+              Youtube-client
+            </button>
+            <div class="feature-container">
+              <img src="./assets/angular.svg" class="feature-img" width="34" height="34"  alt="html">
+              <img src="./assets/ngrx.svg" class="feature-img" width="34" height="34" alt="css">
+              <img src="./assets/icons8-youtube-logo.svg" class="feature-img" width="34" height="34" alt="javascript">
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample7">
+            <div class="card card-body">
+              SPA, Angular, Ngrx, Angular Material, YouTube Data API
+              <a href="https://github.com/halaveika/youtube-client" target="_blank">Repository</a>
+              <a href="https://youtube-client-angular2021.netlify.app/" target="_blank">Deploy</a>
             </div>
           </div>
           <div class="p-1 btn-container">
@@ -143,22 +228,39 @@
             </div>
           </div>
           <div class="p-1 btn-container">
-            <button class="btn btn-secondary p-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample7" aria-expanded="false" aria-controls="collapseExample7">
-              Youtube-client
+            <button class="btn btn-secondary p-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample10" aria-expanded="false" aria-controls="collapseExample10">
+              ST-2-REST-API
             </button>
             <div class="feature-container">
-              <img src="./assets/angular.svg" class="feature-img" width="34" height="34"  alt="html">
-              <img src="./assets/ngrx.svg" class="feature-img" width="34" height="34" alt="css">
-              <img src="./assets/icons8-youtube-logo.svg" class="feature-img" width="34" height="34" alt="javascript">
+              <img src="./assets/nodejs.svg" class="feature-img" width="34" height="34"  alt="nodejs">
+              <img src="./assets/typescript.svg" class="feature-img" width="34" height="34" alt="typescript">
+              <img src="./assets/postgresql-icon.svg" class="feature-img" width="34" height="34" alt="postgresql">
+              <img src="./assets/docker.svg" class="feature-img" width="34" height="34" alt="docker">
+              <img src="./assets/jest.svg" class="feature-img" width="34" height="34" alt="jest">
             </div>
           </div>
-          <div class="collapse" id="collapseExample7">
+          <div class="collapse" id="collapseExample10">
             <div class="card card-body">
-              SPA, Angular, Ngrx, Angular Material, YouTube Data API
-              <a href="https://github.com/halaveika/youtube-client" target="_blank">Repository</a>
-              <a href="https://youtube-client-angular2021.netlify.app/" target="_blank">Deploy</a>
+              NodeJS, Typescript, Express, PostgreSQL, TypeORM, Jest, Docker
+              <a href="https://github.com/halaveika/ST-2-REST-API" target="_blank">Repository</a>
             </div>
           </div>
+          <div class="p-1 btn-container">
+            <button class="btn btn-secondary p-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample11" aria-expanded="false" aria-controls="collapseExample11">
+              My ciphering CLI
+            </button>
+            <div class="feature-container">
+              <img src="./assets/nodejs.svg" class="feature-img" width="34" height="34"  alt="nodejs">
+              <img src="./assets/jest.svg" class="feature-img" width="34" height="34" alt="jest">
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample11">
+            <div class="card card-body">
+              NodeJS, Jest
+              <a href="https://github.com/halaveika/my_ciphering_cli" target="_blank">Repository</a>
+            </div>
+          </div>
+
         <hr>
         <h2>Education<br></h2>
            <ul>
@@ -172,12 +274,13 @@
             </li>
             <li class="list-group-item list-group-item-light">
               <h3>Brest State Technical University<br></h3>
-              <em>Automatic Data Processing Systemsm, pending </em>
+              <em>Automatic Data Processing Systemsm, in progress </em>
             </li>
            </ul>
         <hr>
         <h2>English lvl B1<br></h2>
         <hr>
+    </div>
   </main>
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
